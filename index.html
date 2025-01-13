@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EZ MakeUp </title>
+    <link rel="stylesheet" href="assets/css/normalize.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&family=Nanum+Myeongjo:wght@400;700;800&family=Poppins&family=Satisfy&display=swap"
+        rel="stylesheet">
+    <link rel="preload" href="assets/css/styles.css" as="style">
+    <link href="assets/css/styles.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <header>
+        <div class="logoContainer">
+            <img src="/assets/img/logo.png" alt="logo" class="logo">
+        </div>
+
+        <nav id="navegacion">
+            <ul class="navegacionMenu">
+                <li><a href="/index.html">Inicio</a></li>
+                <li><a href="/Automaquillaje.html">Automaquillaje</a></li>
+                <li><a href="/MaquillajeProfesional.html">Maquillaje Profesional</a></li>
+                <li><a href="/MaquillajeSocial.html"> Maquillaje Social</a></li>
+                <li><a href="/GlitterBar.html">Glitter Bar</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div id="carousel">
+        <img src="https://tiendaellas.com/cdn/shop/articles/Blog_ojos_basico_600x600_crop_center.png?v=1636664444"
+            alt="Imagen 1">
+        <button class="carouselBackBtn">&lt;</button>
+        <button class="carouselNextBtn">&gt;</button>
+    </div>
+
+    <main>
+        <h1> Maquillaje social y profesional</h1>
+        <section id="contenedorServicios">
+
+            <div class="detalleServicio">
+                <h2>Maquillaje social</h2>
+                <img src="https://tiendaellas.com/cdn/shop/articles/Blog_ojos_basico_600x600_crop_center.png?v=1636664444"
+                    alt="logo">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus qui blanditiis voluptate
+                    beatae
+                    quidem facere fugiat laudantium corrupti, voluptates officiis atque quis illo laboriosam error
+                    minus,
+                    quod possimus, inventore asperiores.</p>
+                <input type="button" value="Ver Detalle" onclick="location.href='MaquillajeSocial.html'">
+                </a>
+            </div>
+
+            <div class="detalleServicio">
+                <h2>Maquillaje Profesional</h2>
+                <img src="https://tiendaellas.com/cdn/shop/articles/Blog_ojos_basico_600x600_crop_center.png?v=1636664444"
+                    alt="logo">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus qui blanditiis voluptate
+                    beatae
+                    quidem facere fugiat laudantium corrupti, voluptates officiis atque quis illo laboriosam error
+                    minus,
+                    quod possimus, inventore asperiores.</p>
+                <input type="button" value="Ver Detalle" onclick="location.href='MaquillajeProfesional.html'">
+
+            </div>
+
+            <div class="detalleServicio">
+                <h2>Automaquillaje</h2>
+                <img src="https://tiendaellas.com/cdn/shop/articles/Blog_ojos_basico_600x600_crop_center.png?v=1636664444"
+                    alt="logo">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus qui blanditiis voluptate
+                    beatae
+                    quidem facere fugiat laudantium corrupti, voluptates officiis atque quis illo laboriosam error
+                    minus,
+                    quod possimus, inventore asperiores.</p>
+                <input type="button" value="Ver Detalle" onclick="location.href='Automaquillaje.html'">
+
+            </div>
+
+            <div class="detalleServicio">
+                <h2>Barra de glitter</h2>
+                <img src="https://tiendaellas.com/cdn/shop/articles/Blog_ojos_basico_600x600_crop_center.png?v=1636664444"
+                    alt="logo">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus qui blanditiis voluptate
+                    beatae
+                    quidem facere fugiat laudantium corrupti, voluptates officiis atque quis illo laboriosam error
+                    minus,
+                    quod possimus, inventore asperiores.
+                </p>
+                <input type="button" value="Ver Detalle" onclick="location.href='GlitterBar.html'">
+
+            </div>
+        </section>
+
+    </main>
+
+    <div id="contactoContainer">
+
+        <form action="/submit" method="post">
+            <h2>Contacto </h2>
+
+            <fieldset>
+                <legend>
+                    Deja tu consulta y te contactaré a la brevedad.
+                </legend>
+                <div id="labels">
+                    <div>
+                        <label for="nombre"> Nombre: </label>
+                        <input type="text" name="nombre" id="nombre" placeholder="Nombre">
+                    </div>
+                    <div>
+                        <label for="mail"> Mail: </label>
+                        <input type="email" name="mail" id="mail" placeholder="Mail">
+                    </div>
+
+                    <div>
+                        <label for="telefono"> Telefono: </label>
+                        <input type="tel" name="telefono" id="telefono" placeholder="Telefono">
+                    </div>
+                    <div>
+                        <label for="consulta"> Mensaje: </label>
+                        <textarea type="consulta" name="consulta" id="consulta"></textarea>
+                    </div>
+                </div>
+
+                <input type="submit" value="Enviar" id="botonEnviar">
+
+            </fieldset>
+        </form>
+    </div>
+
+    <footer>
+        <section id="redesSociales">
+            <a href="https://www.instagram.com" target="_blank"><img src="/assets/img/instagramLogo.png"
+                    alt="Instagram">
+            </a>
+            <a href="https://www.instagram.com" target="_blank"><img src="/assets/img/facebookLogo.png"
+                    alt="Facebook"></a>
+            <a href="https://www.instagram.com" target="_blank"><img src="/assets/img/whatsappLogo.png"
+                    alt="Whatsapp"></a>
+        </section>
+
+    </footer>
+
+</body>
+
+</html>
