@@ -1,0 +1,84 @@
+@import 'configuracion';
+@import 'variables';
+
+input {
+    background-color: $primario;
+}
+
+.logoContainer {
+    display: flex;
+    justify-content: left;
+    align-items: top;
+
+    img {
+        width: 20%;
+        height: 20%;
+        object-fit: cover;
+    }
+}
+
+
+h1 {
+    text-align: center;
+    margin-top: 3rem;
+}
+
+
+#contactoContainer h2 {
+    text-decoration: underline;
+    margin: 10px;
+    width: 80%;
+
+}
+
+fieldset {
+    margin: 10px;
+    width: 100%;
+    border: none;
+
+    input:hover {
+        background-color: $terciario;
+    }
+}
+
+#labels div {
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+
+    input {
+        width: 100%;
+    }
+
+    #botonEnviar {
+        margin: 15px;
+        width: 100%;
+        border-radius: 7px;
+    }
+
+    textarea {
+        background-color: #848be1;
+        width: 100%;
+
+        textarea:hover {
+            background-color: $terciario;
+
+        }
+    }
+
+
+}
+
+#redesSociales {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+
+    img {
+        width: 25px;
+        height: 25px;
+        margin: 5px;
+        justify-items: center;
+
+    }
+}

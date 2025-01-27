@@ -34,11 +34,30 @@
         </nav>
     </header>
 
-    <div id="carousel">
-        <img src="/assets/img/imgGenerica.jpg" alt="ImagenGenerica">
-        <button class="carouselBackBtn">&lt;</button>
-        <button class="carouselNextBtn">&gt;</button>
+    <div id="carousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="3000">
+                <img class="d-block w-100" src="/assets/img/carousel (1).jpg" alt="Maquillaje Social 1">
+            </div>
+            <div class="carousel-item" data-bs-interval="3000">
+                <img class="d-block w-100" src="/assets/img/carousel (2).jpg" alt="Maquillaje Social 2">
+            </div>
+            <div class="carousel-item" data-bs-interval="3000">
+                <img class="d-block w-100" src="/assets/img/carousel (3).jpg" alt="Maquillaje Social 3">
+            </div>
+        </div>
+
+        <!-- Navegación -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Siguiente</span>
+        </button>
     </div>
+
 
     <main>
         <h1> Maquillaje social y profesional</h1>

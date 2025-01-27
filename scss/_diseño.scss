@@ -1,0 +1,118 @@
+@import 'configuracion';
+@import 'variables';
+@import 'formatogeneral';
+
+.navegacionMenu {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: top;
+    list-style-type: none;
+    margin-left: 20px;
+
+    a {
+        color: $terciario;
+        text-decoration: none;
+    }
+}
+
+#carousel {
+    text-align: center;
+}
+
+.carousel-item {
+    width: 100%;
+    height: 30rem;
+    justify-items: center;
+    align-items: center;
+
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
+
+#contenedorServicios {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.detalleServicio {
+    display: flex;
+    flex-direction: column;
+
+    h2 {
+        margin: 15px;
+        font-size: medium;
+        text-align: center;
+    }
+
+    input {
+        margin: 15px;
+        border-radius: 7px;
+    }
+
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    p {
+        margin: 5px;
+        text-align: center;
+    }
+}
+
+#tituloPestaña {
+    @extend h1;
+    padding-top: 15px;
+    margin-bottom: 5%;
+
+}
+
+#contenedorGrid {
+    display: grid;
+    grid-template-columns: 35% 35%;
+    justify-content: center;
+    align-content: center;
+    margin: 10px;
+    justify-items: center;
+    align-items: center;
+}
+
+#itemFila img {
+    height: 80%;
+    width: 80%;
+    object-fit: cover;
+
+}
+
+#itemFila1 {
+    text-align: right;
+    height: 80%;
+    width: 80%;
+}
+
+#itemFila2 {
+    text-align: left;
+    height: 80%;
+    width: 80%;
+}
+
+#galeriaGrid {
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-content: center;
+
+    div img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
