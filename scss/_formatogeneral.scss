@@ -5,18 +5,6 @@ input {
     background-color: $primario;
 }
 
-.logoContainer {
-    display: flex;
-    justify-content: left;
-    align-items: top;
-
-    img {
-        width: 20%;
-        height: 20%;
-        object-fit: cover;
-    }
-}
-
 
 h1 {
     text-align: center;

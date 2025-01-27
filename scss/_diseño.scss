@@ -3,26 +3,34 @@
 @import 'formatogeneral';
 
 header {
-    position: fixed;
+    position: relative;
+
 }
 
-.navegacionMenu {
-    display: flex;
-    flex-direction: column;
-    justify-content: left;
-    align-items: top;
-    list-style-type: none;
-    margin-left: 20px;
+main {
+    position: relative;
+}
 
-    a {
-        color: $terciario;
-        text-decoration: none;
+#menuLogo {
+    width: 3px;
+    height: 3px;
+}
+
+nav {
+    background-color: $secundario;
+    font-family: "Poppins", sans-serif;
+}
+
+ul {
+    li {
+        &:hover {
+            background-color: $terciario;
+        }
     }
 }
 
 #carousel {
     text-align: center;
-    margin-top: 270px;
 }
 
 .carousel-item {
@@ -69,18 +77,6 @@ header {
         margin: 5px;
         text-align: center;
     }
-}
-
-#tituloPestaña {
-    @extend h1;
-    padding-top: 15px;
-    margin-bottom: 5%;
-
-}
-
-#tituloPestaña {
-    margin-top: 280px;
-
 }
 
 #contenedorGrid {

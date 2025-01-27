@@ -3,7 +3,16 @@
 @import 'formatogeneral';
 @import 'diseño';
 
-@media (min-width: 1001px) {
+@media (min-width: 600px) {
+
+    header {
+        position: relative;
+
+    }
+
+    main {
+        position: relative;
+    }
 
     .navegacionMenu {
         display: flex;
@@ -32,15 +41,9 @@
         }
     }
 
-    /*
-
-
-
-}*/
 
     #carousel {
         text-align: center;
-        margin-top: 270px;
     }
 
     .carousel-item {
@@ -98,6 +101,7 @@
             margin-top: 5px;
             text-align: center;
         }
+
     }
 
     fieldset {
@@ -142,8 +146,7 @@
 
     #tituloPestaña {
         text-align: center;
-        margin-top: 15%;
-
+        margin-top: 10px;
     }
 
     #contenedorGrid {
