@@ -9,14 +9,17 @@ input {
 h1 {
     text-align: center;
     margin-top: 3rem;
+    font-size: 4rem;
 }
 
+form {
+    width: 95%;
+}
 
 #contactoContainer h2 {
     text-decoration: underline;
     margin: 10px;
     width: 80%;
-
 }
 
 fieldset {
@@ -48,13 +51,10 @@ fieldset {
         background-color: #848be1;
         width: 100%;
 
-        textarea:hover {
+        &:hover {
             background-color: $terciario;
-
         }
     }
-
-
 }
 
 #redesSociales {
@@ -67,6 +67,5 @@ fieldset {
         height: 25px;
         margin: 5px;
         justify-items: center;
-
     }
 }

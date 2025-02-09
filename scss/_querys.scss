@@ -3,7 +3,7 @@
 @import 'formatogeneral';
 @import 'diseño';
 
-@media (min-width: 600px) and (max-width:1300px) {
+@media (min-width: 1200px) and (max-width:1500px) {
 
     header {
         position: relative;
@@ -73,6 +73,12 @@
 
         h2 {
             font-size: xx-large;
+            height: 6%;
+        }
+
+        img {
+            height: 30%;
+            width: 100%;
         }
     }
 
@@ -83,13 +89,7 @@
         flex-direction: column;
         font-size: x-large;
 
-        h2 {
-            margin: 15px;
-            text-align: center;
-        }
-
         input {
-            margin: 15px;
             border-radius: 7px;
 
             &:hover {
@@ -98,10 +98,10 @@
         }
 
         p {
-            margin-top: 5px;
+            margin-top: 10px;
             text-align: center;
+            font-size: 1.5rem;
         }
-
     }
 
     fieldset {
