@@ -112,9 +112,11 @@
 
     #labels div {
         margin: 10px;
+        display: flex;
+        flex-direction: column;
 
         input {
-            width: 100%;
+            border-radius: 7px;
 
             &:hover {
                 background-color: $terciario;
@@ -149,40 +151,11 @@
     }
 
     #contenedorGrid {
-        display: grid;
-        grid-template-columns: 400px 400px;
+        display: flex;
         justify-content: center;
         align-content: center;
         margin: 30px;
-
         font-size: x-large;
-    }
-
-    #itemFila img {
-        height: 500px;
-        width: 500px;
-        align-items: center;
-
-        &:hover {
-            width: 520px;
-            height: 520px;
-            object-fit: cover;
-        }
-    }
-
-    #itemFila1 {
-        padding: 5%;
-        text-align: right;
-        height: 500px;
-        width: 500px;
-    }
-
-    #itemFila2 {
-        padding: 5%;
-        text-align: left;
-        height: 500px;
-        width: 500px;
-
     }
 
     #galeriaGrid {

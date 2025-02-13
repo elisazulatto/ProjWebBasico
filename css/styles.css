@@ -760,9 +760,11 @@ ul li:hover {
   }
   #labels div {
     margin: 10px;
+    display: flex;
+    flex-direction: column;
   }
   #labels div input {
-    width: 100%;
+    border-radius: 7px;
   }
   #labels div input:hover {
     background-color: #f8ece5;
@@ -788,34 +790,11 @@ ul li:hover {
     margin-top: 10px;
   }
   #contenedorGrid {
-    display: grid;
-    grid-template-columns: 400px 400px;
+    display: flex;
     justify-content: center;
     align-content: center;
     margin: 30px;
     font-size: x-large;
-  }
-  #itemFila img {
-    height: 500px;
-    width: 500px;
-    align-items: center;
-  }
-  #itemFila img:hover {
-    width: 520px;
-    height: 520px;
-    object-fit: cover;
-  }
-  #itemFila1 {
-    padding: 5%;
-    text-align: right;
-    height: 500px;
-    width: 500px;
-  }
-  #itemFila2 {
-    padding: 5%;
-    text-align: left;
-    height: 500px;
-    width: 500px;
   }
   #galeriaGrid {
     margin-top: 5%;
@@ -1607,9 +1586,11 @@ ul li:hover {
   }
   #labels div {
     margin: 10px;
+    display: flex;
+    flex-direction: column;
   }
   #labels div input {
-    width: 100%;
+    border-radius: 7px;
   }
   #labels div input:hover {
     background-color: #f8ece5;
@@ -1635,34 +1616,11 @@ ul li:hover {
     margin-top: 10px;
   }
   #contenedorGrid {
-    display: grid;
-    grid-template-columns: 400px 400px;
+    display: flex;
     justify-content: center;
     align-content: center;
     margin: 30px;
     font-size: x-large;
-  }
-  #itemFila img {
-    height: 500px;
-    width: 500px;
-    align-items: center;
-  }
-  #itemFila img:hover {
-    width: 520px;
-    height: 520px;
-    object-fit: cover;
-  }
-  #itemFila1 {
-    padding: 5%;
-    text-align: right;
-    height: 500px;
-    width: 500px;
-  }
-  #itemFila2 {
-    padding: 5%;
-    text-align: left;
-    height: 500px;
-    width: 500px;
   }
   #galeriaGrid {
     margin-top: 5%;
