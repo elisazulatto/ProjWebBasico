@@ -57,15 +57,14 @@ fieldset {
     }
 }
 
+
 #redesSociales {
     display: flex;
     justify-content: center;
-    justify-items: center;
+    width: 100%;
 
     img {
         width: 25px;
         height: 25px;
-        margin: 5px;
-        justify-items: center;
     }
 }

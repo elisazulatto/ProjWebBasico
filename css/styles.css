@@ -102,13 +102,11 @@ fieldset input:hover {
 #redesSociales {
   display: flex;
   justify-content: center;
-  justify-items: center;
+  width: 100%;
 }
 #redesSociales img {
   width: 25px;
   height: 25px;
-  margin: 5px;
-  justify-items: center;
 }
 
 * {
@@ -214,13 +212,11 @@ fieldset input:hover {
 #redesSociales {
   display: flex;
   justify-content: center;
-  justify-items: center;
+  width: 100%;
 }
 #redesSociales img {
   width: 25px;
   height: 25px;
-  margin: 5px;
-  justify-items: center;
 }
 
 header {
@@ -436,13 +432,11 @@ fieldset input:hover {
 #redesSociales {
   display: flex;
   justify-content: center;
-  justify-items: center;
+  width: 100%;
 }
 #redesSociales img {
   width: 25px;
   height: 25px;
-  margin: 5px;
-  justify-items: center;
 }
 
 * {
@@ -548,13 +542,11 @@ fieldset input:hover {
 #redesSociales {
   display: flex;
   justify-content: center;
-  justify-items: center;
+  width: 100%;
 }
 #redesSociales img {
   width: 25px;
   height: 25px;
-  margin: 5px;
-  justify-items: center;
 }
 
 header {
@@ -770,7 +762,6 @@ ul li:hover {
   #redesSociales img {
     width: 55px;
     height: 55px;
-    margin: 15px;
   }
   #redesSociales img:hover {
     width: 65px;
@@ -942,13 +933,11 @@ fieldset input:hover {
 #redesSociales {
   display: flex;
   justify-content: center;
-  justify-items: center;
+  width: 100%;
 }
 #redesSociales img {
   width: 25px;
   height: 25px;
-  margin: 5px;
-  justify-items: center;
 }
 
 * {
@@ -1054,13 +1043,11 @@ fieldset input:hover {
 #redesSociales {
   display: flex;
   justify-content: center;
-  justify-items: center;
+  width: 100%;
 }
 #redesSociales img {
   width: 25px;
   height: 25px;
-  margin: 5px;
-  justify-items: center;
 }
 
 header {
@@ -1276,13 +1263,11 @@ fieldset input:hover {
 #redesSociales {
   display: flex;
   justify-content: center;
-  justify-items: center;
+  width: 100%;
 }
 #redesSociales img {
   width: 25px;
   height: 25px;
-  margin: 5px;
-  justify-items: center;
 }
 
 * {
@@ -1388,13 +1373,11 @@ fieldset input:hover {
 #redesSociales {
   display: flex;
   justify-content: center;
-  justify-items: center;
+  width: 100%;
 }
 #redesSociales img {
   width: 25px;
   height: 25px;
-  margin: 5px;
-  justify-items: center;
 }
 
 header {
@@ -1610,7 +1593,6 @@ ul li:hover {
   #redesSociales img {
     width: 55px;
     height: 55px;
-    margin: 15px;
   }
   #redesSociales img:hover {
     width: 65px;
@@ -1782,7 +1764,6 @@ ul li:hover {
   #redesSociales img {
     width: 55px;
     height: 55px;
-    margin: 15px;
   }
   #redesSociales img:hover {
     width: 65px;
