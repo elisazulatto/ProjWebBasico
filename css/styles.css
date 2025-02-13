@@ -104,6 +104,10 @@ fieldset input:hover {
   justify-content: center;
   width: 100%;
 }
+#redesSociales div {
+  justify-items: center;
+  width: 20%;
+}
 #redesSociales img {
   width: 25px;
   height: 25px;
@@ -213,6 +217,10 @@ fieldset input:hover {
   display: flex;
   justify-content: center;
   width: 100%;
+}
+#redesSociales div {
+  justify-items: center;
+  width: 20%;
 }
 #redesSociales img {
   width: 25px;
@@ -434,6 +442,10 @@ fieldset input:hover {
   justify-content: center;
   width: 100%;
 }
+#redesSociales div {
+  justify-items: center;
+  width: 20%;
+}
 #redesSociales img {
   width: 25px;
   height: 25px;
@@ -543,6 +555,10 @@ fieldset input:hover {
   display: flex;
   justify-content: center;
   width: 100%;
+}
+#redesSociales div {
+  justify-items: center;
+  width: 20%;
 }
 #redesSociales img {
   width: 25px;
@@ -935,6 +951,10 @@ fieldset input:hover {
   justify-content: center;
   width: 100%;
 }
+#redesSociales div {
+  justify-items: center;
+  width: 20%;
+}
 #redesSociales img {
   width: 25px;
   height: 25px;
@@ -1044,6 +1064,10 @@ fieldset input:hover {
   display: flex;
   justify-content: center;
   width: 100%;
+}
+#redesSociales div {
+  justify-items: center;
+  width: 20%;
 }
 #redesSociales img {
   width: 25px;
@@ -1265,6 +1289,10 @@ fieldset input:hover {
   justify-content: center;
   width: 100%;
 }
+#redesSociales div {
+  justify-items: center;
+  width: 20%;
+}
 #redesSociales img {
   width: 25px;
   height: 25px;
@@ -1374,6 +1402,10 @@ fieldset input:hover {
   display: flex;
   justify-content: center;
   width: 100%;
+}
+#redesSociales div {
+  justify-items: center;
+  width: 20%;
 }
 #redesSociales img {
   width: 25px;
