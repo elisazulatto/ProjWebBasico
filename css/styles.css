@@ -16,7 +16,7 @@ header {
 
 body {
   font-family: "Poppins", sans-serif;
-  background-image: linear-gradient(#ffe6a5, #bfc2ef);
+  background-image: linear-gradient(#f8ece5, #bfc2ef);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -41,7 +41,7 @@ header {
 
 body {
   font-family: "Poppins", sans-serif;
-  background-image: linear-gradient(#ffe6a5, #bfc2ef);
+  background-image: linear-gradient(#f8ece5, #bfc2ef);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -75,7 +75,7 @@ fieldset {
   border: none;
 }
 fieldset input:hover {
-  background-color: #ffe6a5;
+  background-color: #f8ece5;
 }
 
 #labels div {
@@ -96,7 +96,7 @@ fieldset input:hover {
   width: 100%;
 }
 #labels div textarea:hover {
-  background-color: #ffe6a5;
+  background-color: #f8ece5;
 }
 
 #redesSociales {
@@ -128,7 +128,7 @@ header {
 
 body {
   font-family: "Poppins", sans-serif;
-  background-image: linear-gradient(#ffe6a5, #bfc2ef);
+  background-image: linear-gradient(#f8ece5, #bfc2ef);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -153,7 +153,7 @@ header {
 
 body {
   font-family: "Poppins", sans-serif;
-  background-image: linear-gradient(#ffe6a5, #bfc2ef);
+  background-image: linear-gradient(#f8ece5, #bfc2ef);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -187,7 +187,7 @@ fieldset {
   border: none;
 }
 fieldset input:hover {
-  background-color: #ffe6a5;
+  background-color: #f8ece5;
 }
 
 #labels div {
@@ -208,7 +208,7 @@ fieldset input:hover {
   width: 100%;
 }
 #labels div textarea:hover {
-  background-color: #ffe6a5;
+  background-color: #f8ece5;
 }
 
 #redesSociales {
@@ -243,7 +243,7 @@ nav {
 }
 
 ul li:hover {
-  background-color: #ffe6a5;
+  background-color: #f8ece5;
 }
 
 #carousel {
@@ -350,7 +350,7 @@ header {
 
 body {
   font-family: "Poppins", sans-serif;
-  background-image: linear-gradient(#ffe6a5, #bfc2ef);
+  background-image: linear-gradient(#f8ece5, #bfc2ef);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -375,7 +375,7 @@ header {
 
 body {
   font-family: "Poppins", sans-serif;
-  background-image: linear-gradient(#ffe6a5, #bfc2ef);
+  background-image: linear-gradient(#f8ece5, #bfc2ef);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -409,7 +409,7 @@ fieldset {
   border: none;
 }
 fieldset input:hover {
-  background-color: #ffe6a5;
+  background-color: #f8ece5;
 }
 
 #labels div {
@@ -430,7 +430,7 @@ fieldset input:hover {
   width: 100%;
 }
 #labels div textarea:hover {
-  background-color: #ffe6a5;
+  background-color: #f8ece5;
 }
 
 #redesSociales {
@@ -462,7 +462,7 @@ header {
 
 body {
   font-family: "Poppins", sans-serif;
-  background-image: linear-gradient(#ffe6a5, #bfc2ef);
+  background-image: linear-gradient(#f8ece5, #bfc2ef);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -487,7 +487,7 @@ header {
 
 body {
   font-family: "Poppins", sans-serif;
-  background-image: linear-gradient(#ffe6a5, #bfc2ef);
+  background-image: linear-gradient(#f8ece5, #bfc2ef);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -521,7 +521,7 @@ fieldset {
   border: none;
 }
 fieldset input:hover {
-  background-color: #ffe6a5;
+  background-color: #f8ece5;
 }
 
 #labels div {
@@ -542,7 +542,7 @@ fieldset input:hover {
   width: 100%;
 }
 #labels div textarea:hover {
-  background-color: #ffe6a5;
+  background-color: #f8ece5;
 }
 
 #redesSociales {
@@ -577,7 +577,7 @@ nav {
 }
 
 ul li:hover {
-  background-color: #ffe6a5;
+  background-color: #f8ece5;
 }
 
 #carousel {
@@ -683,7 +683,7 @@ ul li:hover {
     font-size: x-large;
   }
   .navegacionMenu a {
-    color: #ffe6a5;
+    color: #f8ece5;
     text-decoration: none;
   }
   .logoContainer {
@@ -739,7 +739,7 @@ ul li:hover {
     border-radius: 7px;
   }
   .detalleServicio input:hover {
-    background-color: #ffe6a5;
+    background-color: #f8ece5;
   }
   .detalleServicio p {
     margin-top: 10px;
@@ -757,7 +757,7 @@ ul li:hover {
     width: 100%;
   }
   #labels div input:hover {
-    background-color: #ffe6a5;
+    background-color: #f8ece5;
   }
   #botonEnviar {
     margin: 15px;
@@ -765,7 +765,7 @@ ul li:hover {
     border-radius: 7px;
   }
   #botonEnviar:hover {
-    background-color: #ffe6a5;
+    background-color: #f8ece5;
   }
   #redesSociales img {
     width: 55px;
@@ -856,7 +856,7 @@ header {
 
 body {
   font-family: "Poppins", sans-serif;
-  background-image: linear-gradient(#ffe6a5, #bfc2ef);
+  background-image: linear-gradient(#f8ece5, #bfc2ef);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -881,7 +881,7 @@ header {
 
 body {
   font-family: "Poppins", sans-serif;
-  background-image: linear-gradient(#ffe6a5, #bfc2ef);
+  background-image: linear-gradient(#f8ece5, #bfc2ef);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -915,7 +915,7 @@ fieldset {
   border: none;
 }
 fieldset input:hover {
-  background-color: #ffe6a5;
+  background-color: #f8ece5;
 }
 
 #labels div {
@@ -936,7 +936,7 @@ fieldset input:hover {
   width: 100%;
 }
 #labels div textarea:hover {
-  background-color: #ffe6a5;
+  background-color: #f8ece5;
 }
 
 #redesSociales {
@@ -968,7 +968,7 @@ header {
 
 body {
   font-family: "Poppins", sans-serif;
-  background-image: linear-gradient(#ffe6a5, #bfc2ef);
+  background-image: linear-gradient(#f8ece5, #bfc2ef);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -993,7 +993,7 @@ header {
 
 body {
   font-family: "Poppins", sans-serif;
-  background-image: linear-gradient(#ffe6a5, #bfc2ef);
+  background-image: linear-gradient(#f8ece5, #bfc2ef);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -1027,7 +1027,7 @@ fieldset {
   border: none;
 }
 fieldset input:hover {
-  background-color: #ffe6a5;
+  background-color: #f8ece5;
 }
 
 #labels div {
@@ -1048,7 +1048,7 @@ fieldset input:hover {
   width: 100%;
 }
 #labels div textarea:hover {
-  background-color: #ffe6a5;
+  background-color: #f8ece5;
 }
 
 #redesSociales {
@@ -1083,7 +1083,7 @@ nav {
 }
 
 ul li:hover {
-  background-color: #ffe6a5;
+  background-color: #f8ece5;
 }
 
 #carousel {
@@ -1190,7 +1190,7 @@ header {
 
 body {
   font-family: "Poppins", sans-serif;
-  background-image: linear-gradient(#ffe6a5, #bfc2ef);
+  background-image: linear-gradient(#f8ece5, #bfc2ef);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -1215,7 +1215,7 @@ header {
 
 body {
   font-family: "Poppins", sans-serif;
-  background-image: linear-gradient(#ffe6a5, #bfc2ef);
+  background-image: linear-gradient(#f8ece5, #bfc2ef);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -1249,7 +1249,7 @@ fieldset {
   border: none;
 }
 fieldset input:hover {
-  background-color: #ffe6a5;
+  background-color: #f8ece5;
 }
 
 #labels div {
@@ -1270,7 +1270,7 @@ fieldset input:hover {
   width: 100%;
 }
 #labels div textarea:hover {
-  background-color: #ffe6a5;
+  background-color: #f8ece5;
 }
 
 #redesSociales {
@@ -1302,7 +1302,7 @@ header {
 
 body {
   font-family: "Poppins", sans-serif;
-  background-image: linear-gradient(#ffe6a5, #bfc2ef);
+  background-image: linear-gradient(#f8ece5, #bfc2ef);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -1327,7 +1327,7 @@ header {
 
 body {
   font-family: "Poppins", sans-serif;
-  background-image: linear-gradient(#ffe6a5, #bfc2ef);
+  background-image: linear-gradient(#f8ece5, #bfc2ef);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -1361,7 +1361,7 @@ fieldset {
   border: none;
 }
 fieldset input:hover {
-  background-color: #ffe6a5;
+  background-color: #f8ece5;
 }
 
 #labels div {
@@ -1382,7 +1382,7 @@ fieldset input:hover {
   width: 100%;
 }
 #labels div textarea:hover {
-  background-color: #ffe6a5;
+  background-color: #f8ece5;
 }
 
 #redesSociales {
@@ -1417,7 +1417,7 @@ nav {
 }
 
 ul li:hover {
-  background-color: #ffe6a5;
+  background-color: #f8ece5;
 }
 
 #carousel {
@@ -1523,7 +1523,7 @@ ul li:hover {
     font-size: x-large;
   }
   .navegacionMenu a {
-    color: #ffe6a5;
+    color: #f8ece5;
     text-decoration: none;
   }
   .logoContainer {
@@ -1579,7 +1579,7 @@ ul li:hover {
     border-radius: 7px;
   }
   .detalleServicio input:hover {
-    background-color: #ffe6a5;
+    background-color: #f8ece5;
   }
   .detalleServicio p {
     margin-top: 10px;
@@ -1597,7 +1597,7 @@ ul li:hover {
     width: 100%;
   }
   #labels div input:hover {
-    background-color: #ffe6a5;
+    background-color: #f8ece5;
   }
   #botonEnviar {
     margin: 15px;
@@ -1605,7 +1605,7 @@ ul li:hover {
     border-radius: 7px;
   }
   #botonEnviar:hover {
-    background-color: #ffe6a5;
+    background-color: #f8ece5;
   }
   #redesSociales img {
     width: 55px;
@@ -1696,7 +1696,7 @@ ul li:hover {
     font-size: 100px;
   }
   .navegacionMenu a {
-    color: #ffe6a5;
+    color: #f8ece5;
     text-decoration: none;
   }
   .logoContainer {
@@ -1752,7 +1752,7 @@ ul li:hover {
     border-radius: 7px;
   }
   .detalleServicio input:hover {
-    background-color: #ffe6a5;
+    background-color: #f8ece5;
   }
   .detalleServicio p {
     margin-top: 5px;
@@ -1769,7 +1769,7 @@ ul li:hover {
     width: 100%;
   }
   #labels div input:hover {
-    background-color: #ffe6a5;
+    background-color: #f8ece5;
   }
   #botonEnviar {
     margin: 15px;
@@ -1777,7 +1777,7 @@ ul li:hover {
     border-radius: 7px;
   }
   #botonEnviar:hover {
-    background-color: #ffe6a5;
+    background-color: #f8ece5;
   }
   #redesSociales img {
     width: 55px;
