@@ -78,6 +78,11 @@ fieldset input:hover {
   background-color: #f8ece5;
 }
 
+li a::selection {
+  color: #848be1;
+  background-color: #f8ece5;
+}
+
 #labels div {
   margin: 10px;
   display: flex;
@@ -90,6 +95,7 @@ fieldset input:hover {
   margin: 15px;
   width: 100%;
   border-radius: 7px;
+  justify-content: center;
 }
 #labels div textarea {
   background-color: #848be1;
@@ -192,6 +198,11 @@ fieldset input:hover {
   background-color: #f8ece5;
 }
 
+li a::selection {
+  color: #848be1;
+  background-color: #f8ece5;
+}
+
 #labels div {
   margin: 10px;
   display: flex;
@@ -204,6 +215,7 @@ fieldset input:hover {
   margin: 15px;
   width: 100%;
   border-radius: 7px;
+  justify-content: center;
 }
 #labels div textarea {
   background-color: #848be1;
@@ -416,6 +428,11 @@ fieldset input:hover {
   background-color: #f8ece5;
 }
 
+li a::selection {
+  color: #848be1;
+  background-color: #f8ece5;
+}
+
 #labels div {
   margin: 10px;
   display: flex;
@@ -428,6 +445,7 @@ fieldset input:hover {
   margin: 15px;
   width: 100%;
   border-radius: 7px;
+  justify-content: center;
 }
 #labels div textarea {
   background-color: #848be1;
@@ -530,6 +548,11 @@ fieldset input:hover {
   background-color: #f8ece5;
 }
 
+li a::selection {
+  color: #848be1;
+  background-color: #f8ece5;
+}
+
 #labels div {
   margin: 10px;
   display: flex;
@@ -542,6 +565,7 @@ fieldset input:hover {
   margin: 15px;
   width: 100%;
   border-radius: 7px;
+  justify-content: center;
 }
 #labels div textarea {
   background-color: #848be1;
@@ -682,7 +706,7 @@ ul li:hover {
   main {
     position: relative;
   }
-  .navegacionMenu {
+  #navegacionMenu {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -690,9 +714,12 @@ ul li:hover {
     list-style-type: none;
     font-size: x-large;
   }
-  .navegacionMenu a {
+  #navegacionMenu a {
     color: #f8ece5;
     text-decoration: none;
+  }
+  #navegacionMenu a::selection {
+    color: #848be1;
   }
   .logoContainer {
     display: flex;
@@ -769,12 +796,12 @@ ul li:hover {
   #labels div input:hover {
     background-color: #f8ece5;
   }
-  #botonEnviar {
+  #labels div #botonEnviar {
     margin: 15px;
     width: 10%;
     border-radius: 7px;
   }
-  #botonEnviar:hover {
+  #labels div #botonEnviar:hover {
     background-color: #f8ece5;
   }
   #redesSociales img {
@@ -904,6 +931,11 @@ fieldset input:hover {
   background-color: #f8ece5;
 }
 
+li a::selection {
+  color: #848be1;
+  background-color: #f8ece5;
+}
+
 #labels div {
   margin: 10px;
   display: flex;
@@ -916,6 +948,7 @@ fieldset input:hover {
   margin: 15px;
   width: 100%;
   border-radius: 7px;
+  justify-content: center;
 }
 #labels div textarea {
   background-color: #848be1;
@@ -1018,6 +1051,11 @@ fieldset input:hover {
   background-color: #f8ece5;
 }
 
+li a::selection {
+  color: #848be1;
+  background-color: #f8ece5;
+}
+
 #labels div {
   margin: 10px;
   display: flex;
@@ -1030,6 +1068,7 @@ fieldset input:hover {
   margin: 15px;
   width: 100%;
   border-radius: 7px;
+  justify-content: center;
 }
 #labels div textarea {
   background-color: #848be1;
@@ -1242,6 +1281,11 @@ fieldset input:hover {
   background-color: #f8ece5;
 }
 
+li a::selection {
+  color: #848be1;
+  background-color: #f8ece5;
+}
+
 #labels div {
   margin: 10px;
   display: flex;
@@ -1254,6 +1298,7 @@ fieldset input:hover {
   margin: 15px;
   width: 100%;
   border-radius: 7px;
+  justify-content: center;
 }
 #labels div textarea {
   background-color: #848be1;
@@ -1356,6 +1401,11 @@ fieldset input:hover {
   background-color: #f8ece5;
 }
 
+li a::selection {
+  color: #848be1;
+  background-color: #f8ece5;
+}
+
 #labels div {
   margin: 10px;
   display: flex;
@@ -1368,6 +1418,7 @@ fieldset input:hover {
   margin: 15px;
   width: 100%;
   border-radius: 7px;
+  justify-content: center;
 }
 #labels div textarea {
   background-color: #848be1;
@@ -1508,7 +1559,7 @@ ul li:hover {
   main {
     position: relative;
   }
-  .navegacionMenu {
+  #navegacionMenu {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -1516,9 +1567,12 @@ ul li:hover {
     list-style-type: none;
     font-size: x-large;
   }
-  .navegacionMenu a {
+  #navegacionMenu a {
     color: #f8ece5;
     text-decoration: none;
+  }
+  #navegacionMenu a::selection {
+    color: #848be1;
   }
   .logoContainer {
     display: flex;
@@ -1595,12 +1649,12 @@ ul li:hover {
   #labels div input:hover {
     background-color: #f8ece5;
   }
-  #botonEnviar {
+  #labels div #botonEnviar {
     margin: 15px;
     width: 10%;
     border-radius: 7px;
   }
-  #botonEnviar:hover {
+  #labels div #botonEnviar:hover {
     background-color: #f8ece5;
   }
   #redesSociales img {

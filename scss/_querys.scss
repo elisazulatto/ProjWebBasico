@@ -14,7 +14,7 @@
         position: relative;
     }
 
-    .navegacionMenu {
+    #navegacionMenu {
         display: flex;
         flex-direction: row;
         justify-content: space-around;
@@ -26,6 +26,9 @@
             color: $terciario;
             text-decoration: none;
 
+            &::selection {
+                color: $primario;
+            }
         }
     }
 
@@ -122,16 +125,17 @@
                 background-color: $terciario;
             }
         }
-    }
 
-    #botonEnviar {
-        margin: 15px;
-        width: 10%;
-        border-radius: 7px;
+        #botonEnviar {
+            margin: 15px;
+            width: 10%;
+            border-radius: 7px;
 
-        &:hover {
-            background-color: $terciario;
+            &:hover {
+                background-color: $terciario;
+            }
         }
+
     }
 
     #redesSociales img {
