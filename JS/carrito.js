@@ -26,14 +26,31 @@ window.eliminarDelCarrito = function (id) {
         carrito.splice(index, 1);
         localStorage.setItem("carrito", JSON.stringify(carrito));
         mostrarCarritoDeReservas();
+        Swal.fire({
+            icon: 'success',
+            title: 'Eliminado',
+            text: 'El producto fue eliminado del carrito correctamente.',
+            timer: 1500,
+            showConfirmButton: false
+        });
     }
 };
 
 
 window.limpiarCarrito = function () {
     localStorage.removeItem("carrito");
-    location.reload();
+
+    Swal.fire({
+        icon: 'success',
+        title: 'Carrito eliminado',
+        text: 'El carrito fue limpiado correctamente.',
+        timer: 1500,
+        showConfirmButton: false
+    }).then(() => {
+        location.reload();
+    });
 };
+
 
 function actualizarCarrito() {
     const contador = document.getElementById("contadorCarrito");
@@ -42,24 +59,26 @@ function actualizarCarrito() {
     }
     localStorage.setItem("carrito", JSON.stringify(carrito));
 }
-
 document.addEventListener("DOMContentLoaded", () => {
+
+    carrito = JSON.parse(localStorage.getItem("carrito")) || [];
+
     const carritoDeReservas = document.getElementById("carritoDeReservas");
+
+    if (!carritoDeReservas) return;
 
     if (carrito.length === 0) {
         carritoDeReservas.innerHTML = "<p>No hay productos en el carrito.</p>";
-        return;
+    } else {
+        carrito.forEach(servicio => {
+            const div = document.createElement("div");
+            div.innerHTML = `
+                <h3>${servicio.nombre}</h3>
+                <p>Precio: $${servicio.precio}</p>
+            `;
+            carritoDeReservas.appendChild(div);
+        });
     }
-
-    carrito.forEach(servicio => {
-        const div = document.createElement("div");
-        div.innerHTML = `
-            <h3>${servicio.nombre}</h3>
-            <p>Precio: $${servicio.precio}</p>
-        `;
-        carritoDeReservas.appendChild(div);
-    });
-
 
     mostrarCarritoDeReservas();
     actualizarCarrito();

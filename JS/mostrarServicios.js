@@ -1,3 +1,5 @@
+
+
 let carrito = JSON.parse(localStorage.getItem("carrito")) || [];
 let servicios = []; // ahora esta variable está disponible para todas las funciones
 
@@ -36,6 +38,11 @@ window.agregarAlCarrito = function (id) {
         localStorage.setItem("carrito", JSON.stringify(carrito));
         const contador = document.getElementById("contadorCarrito");
         if (contador) contador.textContent = carrito.length;
+        Swal.fire({
+            title: "Listo!",
+            text: "Servicio agregado al carrito!",
+            icon: "success"
+        });
     }
 };
 
