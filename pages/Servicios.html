@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Maquillaje adaptado a tus necesidades y preferencias. Ofrecemos maquillaje social, blindado, profesional, automaquillaje y maquillaje terapéutico.">
+    <link rel="shortcut icon" href="/assets/img/logo.ico" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <title>EZ - Reserva tu servicio</title>
+    <link rel="stylesheet" href="/css/normalize.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&family=Nanum+Myeongjo:wght@400;700;800&family=Poppins&family=Satisfy&display=swap"
+        rel="stylesheet">
+    <link rel="preload" href="/css/styles.css" as="style">
+    <link href="/css/styles.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="logoCarrito" id="contenedorCarrito"
+            style="position: absolute; right: 15px; top: 15px; width: auto;">
+            <a href="./Carrito.html"
+                style="display: flex; align-items: center; gap: 3px; width: auto; text-decoration: none;">
+                <img src="../assets/img/carrito.png" style="width: 16px; height: 16px; object-fit: contain;">
+                <span id="contadorCarrito"
+                    style="width: auto; font-size: 12px; color: white; margin-left: 2px;">0</span>
+            </a>
+        </div>
+        <div class="logoContainer">
+            <img src="/assets/img/logo.png" alt="logo" class="logo">
+        </div>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse bg--white m-3" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 justify-content-end">
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="/index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="/pages/Automaquillaje.html">Automaquillaje</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="/pages/MaquillajeProfesional.html">Maquillaje
+                                Profesional</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="/pages/MaquillajeSocial.html"> Maquillaje Social</a>
+
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="/pages/GlitterBar.html">Glitter Bar</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="pages/Colorimetria.html">Colorimetria </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <h2>Reserva tu servicio</h2>
+        <div id="serviciosContainer">
+
+        </div>
+    </main>
+
+    <footer>
+        <section id="redesSociales">
+            <div><a href="https://www.instagram.com/m.elisazulatto/ " target="_blank"><img
+                        src="/assets/img/instagramLogo.png" alt="Instagram">
+                </a></div>
+            <div><a href="https://www.facebook.com" target="_blank"><img src="/assets/img/facebookLogo.png"
+                        alt="Facebook"></a></div>
+            <div><a href="https://w.app/efiso7" target="_blank"><img src="/assets/img/whatsappLogo.png"
+                        alt="Whatsapp"></a></div>
+        </section>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script type="module" src="../JS/mostrarServicios.js"></script>
+    <script type="module" src="../JS/carrito.js"></script>
+</body>
+
+</html>

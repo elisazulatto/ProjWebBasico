@@ -20,6 +20,15 @@
 
 <body>
     <header>
+        <div class="logoCarrito" id="contenedorCarrito"
+            style="position: absolute; right: 15px; top: 15px; width: auto;">
+            <a href="./Carrito.html"
+                style="display: flex; align-items: center; gap: 3px; width: auto; text-decoration: none;">
+                <img src="../assets/img/carrito.png" style="width: 16px; height: 16px; object-fit: contain;">
+                <span id="contadorCarrito"
+                    style="width: auto; font-size: 12px; color: white; margin-left: 2px;">0</span>
+            </a>
+        </div>
         <div class="logoContainer">
             <img src="/assets/img/logo.png" alt="logo" class="logo">
         </div>
@@ -51,6 +60,9 @@
                         <li class="nav-item">
                             <a class="nav-link text-light" href="pages/Colorimetria.html">Colorimetria</a>
                         </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="/pages/Servicios.html">Servicios</a>
+                        </li>
                     </ul>
                 </div>
             </div>
@@ -62,7 +74,7 @@
         <div id="contenedorGrid">
             <div class="itemGrid">
                 <div id="itemFila">
-                    <img src="/assets/img/pielfria.webp" alt="glitterBar">
+                    <img src="/assets/img/pielfria.webp" alt="pielFria">
                 </div>
                 <div id="itemFila1">
                     <p>Tu tono de piel es frio si tiene matices azulados, rosados o ligeramente violáceos. Tu tez puede
@@ -77,12 +89,15 @@
                         azulados o rosados.
                     </p>
                 </div>
-                <div id="itemFila"> <img src="/assets/img/pielcalida.webp" alt="glitterBar">
+                <div id="itemFila"> <img src="/assets/img/pielcalida.webp" alt="pielCalida">
                 </div>
             </div>
             <div class="itemGrid">
-                <div id="itemFila"> <img src="/assets/img/pielneutra.webp" alt="glitterBar">
+                <div id="itemFila">
+                    <img src="/assets/img/pielneutra.webp" alt="pielNeutra">
                 </div>
+            </div>
+            <div class="itemGrid">
                 <div id="itemFila1">
                     <p>Tu tono de piel es neutro si existe un equilibrio entre matices fríos y cálidos, lo que te
                         permite lucir bien tanto con tonos dorados como plateados. Tu tez puede variar desde clara hasta

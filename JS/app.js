@@ -1,3 +1,5 @@
+
+
 document.querySelector("form").addEventListener("submit", function (event) {
     event.preventDefault(); // Previene que se recargue la página
 
@@ -21,7 +23,6 @@ document.querySelector("form").addEventListener("submit", function (event) {
     mostrarResultado.className = "resultado"
 
     document.getElementById("botonEnviar").disabled = true;
-
 });
 
 function averiguarColor(conteo) {
